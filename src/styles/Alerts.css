@@ -1,0 +1,87 @@
+.alerts-container {
+    text-align: center;
+    background-color: #e8f5e9;
+    font-family: "Poppins", sans-serif;
+    padding: 20px;
+  }
+  
+  .alerts-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .alert-card {
+    width: 90%;
+    max-width: 600px;
+    background: #ffccbc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    position: relative;
+  }
+  
+  .alert-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .alert-card p {
+    margin: 5px 0;
+    font-size: 1.1rem;
+  }
+  
+  .alert-image {
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 10px;
+  }
+  
+  .alert-actions {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .dismiss-btn {
+    background: #d32f2f;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .notify-btn {
+    background: #ff9800;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .safety-btn {
+    background: #388e3c;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Severity Levels */
+  .low {
+    background: #c8e6c9;
+  }
+  
+  .medium {
+    background: #fff59d;
+  }
+  
+  .high {
+    background: #ef9a9a;
+  }
+  

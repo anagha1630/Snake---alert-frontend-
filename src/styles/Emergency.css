@@ -1,0 +1,66 @@
+.emergency-container {
+    padding: 20px;
+    background-color: #e8f5e9; /* Pastel Green background */
+    color: #333; /* Dark text for readability */
+  }
+  
+  .emergency-header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .emergency-header h2 {
+    font-family: 'Arial', sans-serif;
+    color: #12161b;
+  }
+  
+  .emergency-header p {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.1em;
+  }
+  
+  .emergency-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .card {
+    width: 230px;
+    background: #eb8262; /* Bright orange card color for visibility */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .card-details {
+    padding: 15px;
+    background-color: #e7e5bf;
+  }
+  
+  .card-details h3 {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.2em;
+    color: #000000;
+  }
+  
+  .card-details p {
+    font-size: 0.9em;
+    color: #333;
+  }
+  
